@@ -1,25 +1,21 @@
-//
-//  ChatViewController.swift
-//  Flash Chat iOS13
-//
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
-//
 
 import UIKit
 import Firebase
+import RealmSwift
 
 class ChatViewController: UIViewController {
     
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
+    
+    let realm = try! Realm()
     
     let db = Firestore.firestore()
     
     var receiver: Friend?
     var sender: User?
     
-//    let newMessage = Message(sender: "1@2.com", receiver: "a@b.com", body: "sfsdfsdf")
     var messages: [Message] = []
     
     override func viewDidLoad() {
@@ -38,7 +34,7 @@ class ChatViewController: UIViewController {
         if let receiver = receiver, let sender = sender {
             
             db.collection(K.FStore.messagesCollection).document(sender.email)//.collection(receiver.id)
-                //            .order(by: K.FStore.dateField)
+//                            .order(by: K.FStore.dateField)
                 .addSnapshotListener { (querySnapshot, error) in
                     
                     self.messages = []
@@ -137,9 +133,3 @@ extension ChatViewController: UITableViewDataSource {
     
     
 }
-
-//extension ChatViewController: UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        print(indexPath.row)
-//    }
-//}

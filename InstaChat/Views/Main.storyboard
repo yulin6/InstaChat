@@ -77,6 +77,7 @@
                     <navigationItem key="navigationItem" id="TA7-F0-b3D"/>
                     <connections>
                         <outlet property="titleLabel" destination="y7D-jv-BlJ" id="7U9-Ah-qfi"/>
+                        <segue destination="BGQ-2h-CJE" kind="show" identifier="WelcomeToFriendList" animates="NO" id="PIE-OT-8eQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X0w-oB-wTX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -425,7 +426,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="t1N-Tf-QdR"/>
+        <segue reference="PIE-OT-8eQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="logo" width="202" height="188.5"/>

@@ -1,13 +1,8 @@
-//
-//  RegisterViewController.swift
-//  Flash Chat iOS13
-//
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
-//
+
 
 import UIKit
 import Firebase
+import RealmSwift
 
 class RegisterViewController: UIViewController {
     
@@ -16,6 +11,7 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var passwordTextfield: UITextField!
     
     let db = Firestore.firestore()
+    let realm = try! Realm()
     
     @IBAction func registerPressed(_ sender: UIButton) {
         if let userName = userNameTextfield.text, let email = emailTextfield.text, let password = passwordTextfield.text {
@@ -29,11 +25,37 @@ class RegisterViewController: UIViewController {
                     // Navigate to the ChatViewController
                     if let id = Auth.auth().currentUser?.uid {
                         self.db.collection(K.FStore.users).document(email).setData(["id": id, "userName" : userName, "friendList" : []])
+                        
+                        self.saveUserToRealm(user: User(id: id, email: email, userName: userName, friendList: List<Friend>()))
+                        self.saveFriendToRealm(friend: Friend(id: id, email: email, userName: userName))
+                        
                         self.performSegue(withIdentifier: K.registerSegue, sender: self)
                     }
                 }
             }
         }
     }
+    
+    func saveUserToRealm(user: User) {
+        do{
+            try realm.write {
+                realm.add(user)
+            }
+        } catch {
+            print("Error saving user in RegisterViewController, \(error)")
+        }
+    }
+    
+        func saveFriendToRealm(friend: Friend) {
+            do{
+                try realm.write {
+                    realm.add(friend)
+                }
+            } catch {
+                print("Error saving friend in RegisterViewController, \(error)")
+            }
+            
+        }
+    
     
 }

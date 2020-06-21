@@ -11,6 +11,7 @@
 		0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628178235DEE8100E35CAF /* SceneDelegate.swift */; };
 		0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
+		22598E8D3317F751C690DE4E /* Pods_InstaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731DC3CA0343B27982FE97A2 /* Pods_InstaChat.framework */; };
 		821DF3A6249EA29D0078596C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821DF3A5249EA29D0078596C /* Assets.xcassets */; };
 		821DF3A8249EA2C40078596C /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DF3A7249EA2C40078596C /* FriendsListViewController.swift */; };
 		821DF3AD249EA2E50078596C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DF3A9249EA2E30078596C /* LoginViewController.swift */; };
@@ -31,7 +32,6 @@
 		827B29FD249EBAA500D649E2 /* ss1.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29FA249EBAA200D649E2 /* ss1.png */; };
 		827B29FE249EBAA500D649E2 /* ss3.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29FB249EBAA400D649E2 /* ss3.png */; };
 		827B29FF249EBAA500D649E2 /* ss2.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29FC249EBAA500D649E2 /* ss2.png */; };
-		AF1BE4D7E3D5E1EC8C90C08B /* Pods_InstaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD728BAFF16382ECCC85BAD2 /* Pods_InstaChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +41,8 @@
 		0B628182235DEE8400E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B628184235DEE8400E35CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		129E4CB4AD9C8849F19A1552 /* Pods-InstaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.release.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.release.xcconfig"; sourceTree = "<group>"; };
+		731DC3CA0343B27982FE97A2 /* Pods_InstaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		821DF3A5249EA29D0078596C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821DF3A7249EA2C40078596C /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 		821DF3A9249EA2E30078596C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +62,7 @@
 		827B29FA249EBAA200D649E2 /* ss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss1.png; sourceTree = "<group>"; };
 		827B29FB249EBAA400D649E2 /* ss3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss3.png; sourceTree = "<group>"; };
 		827B29FC249EBAA500D649E2 /* ss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss2.png; sourceTree = "<group>"; };
-		8862FB05B0C56592F5E63330 /* Pods-InstaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.debug.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.debug.xcconfig"; sourceTree = "<group>"; };
-		8C0F26B87FC078226C420078 /* Pods-InstaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.release.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.release.xcconfig"; sourceTree = "<group>"; };
-		FD728BAFF16382ECCC85BAD2 /* Pods_InstaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95114596A85D63D57DCCF4A7 /* Pods-InstaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.debug.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8245B4032487338400574802 /* IQKeyboardManagerSwift in Frameworks */,
-				AF1BE4D7E3D5E1EC8C90C08B /* Pods_InstaChat.framework in Frameworks */,
+				22598E8D3317F751C690DE4E /* Pods_InstaChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 				0B628175235DEE8100E35CAF /* InstaChat */,
 				0B628174235DEE8100E35CAF /* Products */,
 				638C81C8EA7C74E877D65DBA /* Pods */,
-				3713CB4C911803EFB31CAAD7 /* Frameworks */,
+				E14EB213101C2654086267BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,11 +122,11 @@
 		0B628192235DF02000E35CAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				821DF3AB249EA2E40078596C /* ChatViewController.swift */,
 				821DF3A9249EA2E30078596C /* LoginViewController.swift */,
 				821DF3AC249EA2E50078596C /* RegisterViewController.swift */,
 				821DF3AA249EA2E40078596C /* WelcomeViewController.swift */,
 				821DF3A7249EA2C40078596C /* FriendsListViewController.swift */,
+				821DF3AB249EA2E40078596C /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,21 +151,21 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3713CB4C911803EFB31CAAD7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FD728BAFF16382ECCC85BAD2 /* Pods_InstaChat.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		638C81C8EA7C74E877D65DBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8862FB05B0C56592F5E63330 /* Pods-InstaChat.debug.xcconfig */,
-				8C0F26B87FC078226C420078 /* Pods-InstaChat.release.xcconfig */,
+				95114596A85D63D57DCCF4A7 /* Pods-InstaChat.debug.xcconfig */,
+				129E4CB4AD9C8849F19A1552 /* Pods-InstaChat.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E14EB213101C2654086267BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731DC3CA0343B27982FE97A2 /* Pods_InstaChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,11 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "InstaChat" */;
 			buildPhases = (
-				167A47E786D791069EC9963C /* [CP] Check Pods Manifest.lock */,
+				16DC4ABC0B280ADEC87C9525 /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
-				FC1298B3351BEA5C5BDF59F5 /* [CP] Embed Pods Frameworks */,
+				3A57DB88F35F928AE6860C7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,7 +251,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		167A47E786D791069EC9963C /* [CP] Check Pods Manifest.lock */ = {
+		16DC4ABC0B280ADEC87C9525 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,7 +273,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC1298B3351BEA5C5BDF59F5 /* [CP] Embed Pods Frameworks */ = {
+		3A57DB88F35F928AE6860C7E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,7 +442,7 @@
 		};
 		0B628188235DEE8400E35CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8862FB05B0C56592F5E63330 /* Pods-InstaChat.debug.xcconfig */;
+			baseConfigurationReference = 95114596A85D63D57DCCF4A7 /* Pods-InstaChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yulin6.InstaChat;
+				PRODUCT_BUNDLE_IDENTIFIER = "yulin6.Flash-Chat-iOS13";
 				PRODUCT_NAME = InstaChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -461,7 +461,7 @@
 		};
 		0B628189235DEE8400E35CAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C0F26B87FC078226C420078 /* Pods-InstaChat.release.xcconfig */;
+			baseConfigurationReference = 129E4CB4AD9C8849F19A1552 /* Pods-InstaChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yulin6.InstaChat;
+				PRODUCT_BUNDLE_IDENTIFIER = "yulin6.Flash-Chat-iOS13";
 				PRODUCT_NAME = InstaChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

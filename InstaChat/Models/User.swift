@@ -1,16 +1,24 @@
-//
-//  User.swift
-//  Flash Chat iOS13
-//
-//  Created by Yu Lin on 2020/6/18.
-//  Copyright © 2020 Angela Yu. All rights reserved.
-//
+
 
 import Foundation
+import RealmSwift
 
-struct User {
-    let id: String
-    let email: String
-    let userName: String
-    var friendList: [Friend]
+class User: Object {
+    @objc dynamic var id: String = ""
+    @objc dynamic var email: String = ""
+    @objc dynamic var userName: String = ""
+    var friendList = List<Friend>()
+    
+    init(id: String, email: String, userName: String, friendList: List<Friend>) {
+        self.id = id
+        self.email = email
+        self.userName = userName
+        self.friendList = friendList
+    }
+    
+    override required init() {
+//        fatalError("init() has not been implemented")
+    }
+    
+    
 }

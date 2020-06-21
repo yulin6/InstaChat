@@ -1,42 +1,31 @@
-//
-//  WelcomeViewController.swift
-//  Flash Chat iOS13
-//
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
-//
+
 
 import UIKit
 import CLTypingLabel
+import RealmSwift
 
 class WelcomeViewController: UIViewController {
 
+    let defaults = UserDefaults.standard
+    
     @IBOutlet weak var titleLabel: CLTypingLabel!
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        navigationController?.isNavigationBarHidden = true
         navigationController?.setNavigationBarHidden(true, animated: true)
+        
+        if defaults.string(forKey: "LocalUserId") != nil  {
+            self.performSegue(withIdentifier: K.welcomeSegue, sender: self)
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        navigationController?.isNavigationBarHidden = false
          navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = K.appName
-
-//        titleLabel.text = ""
-//        let titleText = "⚡️FlashChat"
-//        var charIndex = 0.0
-//        for letter in titleText {
-//            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (timer) in
-//                self.titleLabel.text?.append(letter)
-//            }
-//            charIndex += 1
-//        }
 
     }
     
