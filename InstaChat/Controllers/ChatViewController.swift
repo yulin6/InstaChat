@@ -1,15 +1,10 @@
-
 import UIKit
 import Firebase
-import RealmSwift
 
 class ChatViewController: UIViewController {
     
-    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
-    
-    let realm = try! Realm()
     
     let db = Firestore.firestore()
     
@@ -21,10 +16,7 @@ class ChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        tableView.delegate = self
         tableView.dataSource = self
-        title = receiver?.userName ?? K.appName
-        //        navigationItem.hidesBackButton = true
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
         loadMessages()
@@ -34,7 +26,7 @@ class ChatViewController: UIViewController {
         if let receiver = receiver, let sender = sender {
             
             db.collection(K.FStore.messagesCollection).document(sender.email)//.collection(receiver.id)
-//                            .order(by: K.FStore.dateField)
+                //            .order(by: K.FStore.dateField)
                 .addSnapshotListener { (querySnapshot, error) in
                     
                     self.messages = []
@@ -133,3 +125,5 @@ extension ChatViewController: UITableViewDataSource {
     
     
 }
+
+

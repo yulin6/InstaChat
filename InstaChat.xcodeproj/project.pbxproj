@@ -11,7 +11,6 @@
 		0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628178235DEE8100E35CAF /* SceneDelegate.swift */; };
 		0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
-		22598E8D3317F751C690DE4E /* Pods_InstaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731DC3CA0343B27982FE97A2 /* Pods_InstaChat.framework */; };
 		821DF3A6249EA29D0078596C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821DF3A5249EA29D0078596C /* Assets.xcassets */; };
 		821DF3A8249EA2C40078596C /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DF3A7249EA2C40078596C /* FriendsListViewController.swift */; };
 		821DF3AD249EA2E50078596C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DF3A9249EA2E30078596C /* LoginViewController.swift */; };
@@ -25,13 +24,14 @@
 		8245B3F82485F62B00574802 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8245B3F72485F62B00574802 /* GoogleService-Info.plist */; };
 		8245B3FF2486D4A000574802 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245B3FD2486D4A000574802 /* MessageCell.swift */; };
 		8245B4002486D4A000574802 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8245B3FE2486D4A000574802 /* MessageCell.xib */; };
-		8245B4032487338400574802 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8245B4022487338400574802 /* IQKeyboardManagerSwift */; };
+		8245B4032487338400574802 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8245B4022487338400574802 /* SwiftPackageProductDependency */; };
 		827B29F5249EA9BA00D649E2 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B29F4249EA9BA00D649E2 /* K.swift */; };
 		827B29F8249EB8F400D649E2 /* db1.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29F6249EB8F200D649E2 /* db1.png */; };
 		827B29F9249EB8F400D649E2 /* db2.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29F7249EB8F400D649E2 /* db2.png */; };
 		827B29FD249EBAA500D649E2 /* ss1.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29FA249EBAA200D649E2 /* ss1.png */; };
 		827B29FE249EBAA500D649E2 /* ss3.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29FB249EBAA400D649E2 /* ss3.png */; };
 		827B29FF249EBAA500D649E2 /* ss2.png in Resources */ = {isa = PBXBuildFile; fileRef = 827B29FC249EBAA500D649E2 /* ss2.png */; };
+		A61895F46847AB422961E15C /* Pods_InstaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356026A4CB8BCF5C75D7EEC /* Pods_InstaChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,7 @@
 		0B628182235DEE8400E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B628184235DEE8400E35CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		129E4CB4AD9C8849F19A1552 /* Pods-InstaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.release.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.release.xcconfig"; sourceTree = "<group>"; };
-		731DC3CA0343B27982FE97A2 /* Pods_InstaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		412B36D448A1CE6A218E1F58 /* Pods-InstaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.release.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.release.xcconfig"; sourceTree = "<group>"; };
 		821DF3A5249EA29D0078596C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821DF3A7249EA2C40078596C /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
 		821DF3A9249EA2E30078596C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +61,8 @@
 		827B29FA249EBAA200D649E2 /* ss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss1.png; sourceTree = "<group>"; };
 		827B29FB249EBAA400D649E2 /* ss3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss3.png; sourceTree = "<group>"; };
 		827B29FC249EBAA500D649E2 /* ss2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss2.png; sourceTree = "<group>"; };
-		95114596A85D63D57DCCF4A7 /* Pods-InstaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.debug.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B356026A4CB8BCF5C75D7EEC /* Pods_InstaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA148548B1A988D68E76B4E8 /* Pods-InstaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaChat.debug.xcconfig"; path = "Target Support Files/Pods-InstaChat/Pods-InstaChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8245B4032487338400574802 /* IQKeyboardManagerSwift in Frameworks */,
-				22598E8D3317F751C690DE4E /* Pods_InstaChat.framework in Frameworks */,
+				8245B4032487338400574802 /* BuildFile in Frameworks */,
+				A61895F46847AB422961E15C /* Pods_InstaChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 				0B628175235DEE8100E35CAF /* InstaChat */,
 				0B628174235DEE8100E35CAF /* Products */,
 				638C81C8EA7C74E877D65DBA /* Pods */,
-				E14EB213101C2654086267BD /* Frameworks */,
+				BE67EA8D53FE3DAC3568F923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,9 +122,9 @@
 		0B628192235DF02000E35CAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				821DF3A9249EA2E30078596C /* LoginViewController.swift */,
-				821DF3AC249EA2E50078596C /* RegisterViewController.swift */,
 				821DF3AA249EA2E40078596C /* WelcomeViewController.swift */,
+				821DF3AC249EA2E50078596C /* RegisterViewController.swift */,
+				821DF3A9249EA2E30078596C /* LoginViewController.swift */,
 				821DF3A7249EA2C40078596C /* FriendsListViewController.swift */,
 				821DF3AB249EA2E40078596C /* ChatViewController.swift */,
 			);
@@ -154,16 +154,16 @@
 		638C81C8EA7C74E877D65DBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95114596A85D63D57DCCF4A7 /* Pods-InstaChat.debug.xcconfig */,
-				129E4CB4AD9C8849F19A1552 /* Pods-InstaChat.release.xcconfig */,
+				FA148548B1A988D68E76B4E8 /* Pods-InstaChat.debug.xcconfig */,
+				412B36D448A1CE6A218E1F58 /* Pods-InstaChat.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		E14EB213101C2654086267BD /* Frameworks */ = {
+		BE67EA8D53FE3DAC3568F923 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				731DC3CA0343B27982FE97A2 /* Pods_InstaChat.framework */,
+				B356026A4CB8BCF5C75D7EEC /* Pods_InstaChat.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,11 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "InstaChat" */;
 			buildPhases = (
-				16DC4ABC0B280ADEC87C9525 /* [CP] Check Pods Manifest.lock */,
+				F772145ED852BED302AA400B /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
-				3A57DB88F35F928AE6860C7E /* [CP] Embed Pods Frameworks */,
+				B7959139646B5D688E16E6E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,7 +187,7 @@
 			);
 			name = InstaChat;
 			packageProductDependencies = (
-				8245B4022487338400574802 /* IQKeyboardManagerSwift */,
+				8245B4022487338400574802 /* SwiftPackageProductDependency */,
 			);
 			productName = "Flash Chat iOS13";
 			productReference = 0B628173235DEE8100E35CAF /* InstaChat.app */;
@@ -201,7 +201,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Angela Yu";
+				ORGANIZATIONNAME = "Yu Lin";
 				TargetAttributes = {
 					0B628172235DEE8100E35CAF = {
 						CreatedOnToolsVersion = 11.1;
@@ -218,7 +218,7 @@
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
 			packageReferences = (
-				8245B4012487338400574802 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				8245B4012487338400574802 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
@@ -251,7 +251,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16DC4ABC0B280ADEC87C9525 /* [CP] Check Pods Manifest.lock */ = {
+		B7959139646B5D688E16E6E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaChat/Pods-InstaChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaChat/Pods-InstaChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaChat/Pods-InstaChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F772145ED852BED302AA400B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,23 +288,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A57DB88F35F928AE6860C7E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InstaChat/Pods-InstaChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InstaChat/Pods-InstaChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaChat/Pods-InstaChat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -442,7 +442,7 @@
 		};
 		0B628188235DEE8400E35CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95114596A85D63D57DCCF4A7 /* Pods-InstaChat.debug.xcconfig */;
+			baseConfigurationReference = FA148548B1A988D68E76B4E8 /* Pods-InstaChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yulin6.Flash-Chat-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = yulin6.InstaChat;
 				PRODUCT_NAME = InstaChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -461,7 +461,7 @@
 		};
 		0B628189235DEE8400E35CAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 129E4CB4AD9C8849F19A1552 /* Pods-InstaChat.release.xcconfig */;
+			baseConfigurationReference = 412B36D448A1CE6A218E1F58 /* Pods-InstaChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yulin6.Flash-Chat-iOS13";
+				PRODUCT_BUNDLE_IDENTIFIER = yulin6.InstaChat;
 				PRODUCT_NAME = InstaChat;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -502,7 +502,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8245B4012487338400574802 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+		8245B4012487338400574802 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
 			requirement = {
@@ -513,9 +513,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8245B4022487338400574802 /* IQKeyboardManagerSwift */ = {
+		8245B4022487338400574802 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8245B4012487338400574802 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			package = 8245B4012487338400574802 /* RemoteSwiftPackageReference */;
 			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

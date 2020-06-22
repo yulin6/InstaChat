@@ -1,8 +1,5 @@
-
-
 import UIKit
 import CLTypingLabel
-import RealmSwift
 
 class WelcomeViewController: UIViewController {
 
@@ -26,7 +23,6 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = K.appName
-
     }
     
 
